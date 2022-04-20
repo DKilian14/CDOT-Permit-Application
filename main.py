@@ -142,7 +142,7 @@ for i in range(first_project,Total_Projects+1):
 
     # find "Description of Work" field
     description_of_work = driver.find_element(By.NAME,'Comments')
-    description_of_work.send_keys('Verizon DAS Colocation on CDOT pole.')
+    description_of_work.send_keys('DAS Colocation on CDOT pole.')
 
     # find "Next Step" button
     next_step = driver.find_element(By.ID,'btnSave')
